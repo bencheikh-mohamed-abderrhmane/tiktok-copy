@@ -1,0 +1,30 @@
+/* src/components/VideoCard.css */
+div {
+    margin-bottom: 20px;
+  }
+  
+  video {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  p {
+    text-align: center;
+    font-size: 14px;
+    color: #333;
+  }
+.video{
+  height: 250px;
+}
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    p {
+      font-size: 12px;
+    }
+  }
+  

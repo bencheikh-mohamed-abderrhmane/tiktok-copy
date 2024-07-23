@@ -1,0 +1,29 @@
+/* src/components/Feed.css */
+div {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  video {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-top: 8px;
+    font-size: 16px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    div {
+      padding: 10px;
+    }
+  
+    p {
+      font-size: 14px;
+    }
+  }
+  
